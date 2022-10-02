@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.App{
+  display: flex;
+  position: relative;
+}
+.left-side{
+  background-color: rgb(36, 36, 36);
+  height: 980px;
+  width: 892.5px;
+}
+.right-side{
+  background-color: whitesmoke;
+  height: 980px;
+  width: 1657.5px;
+}
+.gray-header{
+  width: 100%;
+  height: 25%;
+  background-color: rgb(135, 135, 135);
+}
+.name-div{
+  background-color: white;
+  width: 70%;
+  height: 15%;
+  position: absolute;
+  z-index: 1;
+  top:4rem;
+  left: 15%;
+  border: 4px double orangered;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.my-name{
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+  letter-spacing: .25rem;
+  font-weight: bold;
+}
+.my-title{
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+
+.contact-div{
+  margin-top: 250px;
+}
+.contact-header{
+  color:orangered;
+  font-family: 'Merriweather', serif;
+  margin-left: 2rem;
+}
+.contact-list{
+  margin-top: -1rem;
+  list-style: none;
+  color: rgb(135, 135, 135);
+  line-height: 2rem;
+}
+.contact-item{
+  font-size: 1rem;
+}
+.git-link{
+  text-decoration: none;
+  color: rgb(135, 135, 135);
+}
+.skills-div{
+  margin-top: 50px;
+}
+.skills-header{
+  color:orangered;
+  font-family: 'Merriweather', serif;
+  margin-left: 2rem;
+}
+.skills-list{
+  margin-top: -1rem;
+  list-style: none;
+  color: rgb(135, 135, 135);
+  line-height: 2rem;
+}
+.skill{
+  font-size: 1rem;
+}
+
+.skills-header, .contact-header, .education-header{
+  font-size: 1.5rem;
+}
+
+.education-div{
+  margin-top: 50px;
+}
+.education-header{
+  color:orangered;
+  font-family: 'Merriweather', serif;
+  margin-left: 2rem;
+}
+.education-list{
+  margin-top: -1rem;
+  list-style: none;
+  color: rgb(135, 135, 135);
+  line-height: 2rem;
+}
+.deg{
+  font-size: 1rem !important;
+  font-style: italic;
+}
+
+.edu{
+  font-size: .75rem;
+}
+
+
+
+.work-exp-header{
+  color: orangered;
+  font-family: 'Merriweather', serif;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.job-title{
+ font-size: 1rem;
+ margin-left: 3rem;
+ font-family: 'Merriweather', serif;
+ color: rgb(36, 36, 36);
+ margin-top: -.9rem;
+}
+
+.job-list{
+  list-style: none;
+  margin-top: -.75rem;
+}
+.job-desc{
+  margin-left: 2rem;
+  font-size: smaller;
+  line-height: 1.5rem;
+  font-family: 'Merriweather', serif;
+}
+.job-desc::before{
+  content: "> ";
+}
+
+.project-title{
+  color: orangered;
+  font-family: 'Merriweather', serif;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.project-header{
+  font-size: 1rem;
+  margin-left: 3rem;
+  font-family: 'Merriweather', serif;
+  color: rgb(36, 36, 36);
+  margin-top: -.9rem;
+}
+
+.project-list{
+  list-style: none;
+  margin-top: -.75rem;
+}
+.project-desc{
+  margin-left: 2rem;
+  font-size: smaller;
+  line-height: 1.5rem;
+  font-family: 'Merriweather', serif;
+}
+.project-desc::before{
+  content: "> ";
+}
