@@ -68,7 +68,7 @@
   color: rgb(135, 135, 135);
 }
 .skills-div{
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .skills-header{
   color:orangered;
@@ -90,7 +90,7 @@
 }
 
 .education-div{
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .education-header{
   color:orangered;
@@ -98,7 +98,7 @@
   margin-left: 2rem;
 }
 .education-list{
-  margin-top: -1rem;
+  margin-top: -1em;
   list-style: none;
   color: rgb(135, 135, 135);
   line-height: 2rem;

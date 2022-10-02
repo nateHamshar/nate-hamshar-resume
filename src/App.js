@@ -9,7 +9,7 @@ function App() {
           <ul className='contact-list'>
             <li className='contact-item'>+1 (202) 290-8201</li>
             <li className='contact-item'>williamhamshar@gmail.com</li>
-            <li className='contact-item'>Charlottesville, VA</li>
+            <li className='contact-item'><a className='git-link' rel="noreferrer" href='https://nateHamshar.github.io/my-portfolio' target="_blank">nateHamshar.com</a></li>
             <li className='contact-item'><a className="git-link" rel="noreferrer" href='https://github.com/nateHamshar' target="_blank">github.com/nateHamshar</a></li>
           </ul>
         </div>
